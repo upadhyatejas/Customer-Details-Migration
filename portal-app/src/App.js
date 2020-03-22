@@ -4,21 +4,25 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <div className="container-fluid">
+      <div className = "col-md-offset-1">
+        <h1>
+          Welcome to User details
+        </h1>
+      </div>
+
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="one-dev.aexp.com"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          More Details about one amex frame work can befound here
         </a>
-      </header>
+      
     </div>
   );
 }
